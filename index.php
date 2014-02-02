@@ -4,7 +4,7 @@
     	<title>Escuela y Comunidad Tel Aviv - Inicio</title>
     	<?php include 'head.php';?>
     </head>
-  <body>
+	<body>
 	  	<div class="container">
 	  		<?php include 'menu.php';?>
 	  		<div class="row">
@@ -67,5 +67,5 @@
 				</div>
 	  		</div>
 	  	</div>
-  </body>
+	</body>
 </html>

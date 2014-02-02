@@ -22,6 +22,7 @@
             menuitem("jardin", "Jardín");
             menuitem("primaria", "Primaria");
             menuitem("templo", "Templo");
+            menuitem("tnua", "Tnuá");
             menuitem("donaciones", "Donaciones");
         ?>
         </ul>
