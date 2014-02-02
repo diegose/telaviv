@@ -2,36 +2,11 @@
 <html>
 	<head>
     	<title>Escuela y Comunidad Tel Aviv - Inicio</title>
-    	<meta charset="utf-8"> 
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-		<link rel="stylesheet" href="telaviv.css">
-		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-  </head>
+    	<?php include 'head.php';?>
+    </head>
   <body>
 	  	<div class="container">
-	  		<nav class="navbar navbar-default" role="navigation">
-		  		<div class="navbar-header">
-   	 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-			   		 	<span class="sr-only">Toggle navigation</span>
-			    	  	<span class="icon-bar"></span>
-			      		<span class="icon-bar"></span>
-			      		<span class="icon-bar"></span>
-			    	</button>
-			    	<a class="navbar-brand" href="#"><img src="logo-nav.png"></a>
-			    </div>
-			    <div class="collapse navbar-collapse" id="navbar-collapse">
-			    	<ul class="nav navbar-nav">
-   	   				<li class="active"><a href="#">Inicio</a></li>
-   	   				<li><a href="#">Jardín</a></li>
-   	   				<li><a href="#">Primaria</a></li>
-   	   				<li><a href="#">Templo</a></li>
-   	   				<li><a href="#">Tnua</a></li>
-   	   				<li><a href="#">Donaciones</a></li>
-					</ul>
-			    </div>
-		  	</nav>
+	  		<?php include 'menu.php';?>
 	  		<div class="row">
 	  			<div class="col-sm-8">
 	  				<div class="carousel slide" data-ride="carousel">
